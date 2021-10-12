@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <title>All Products - RedStore</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" width="125px" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!--Single Product Details-->
+
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/gallery-1.jpg" width="100%" id="product-img" />
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="images/gallery-1.jpg" width="100px" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/gallery-2.jpg" width="100px" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/gallery-3.jpg" width="100px" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/gallery-4.jpg" width="100px" class="small-img" />
+            </div>
+          </div>
+        </div>
+        <div class="col-2 details">
+          <p>Home / T-Shirt</p>
+          <h1>Red Printed T-Shirt by HRX</h1>
+          <h4>$50.00</h4>
+          <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="#" class="btn">Add To Cart</a>
+          <h3>Product Details</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem
+            quas quam, nisi quos doloremque earum rerum aspernatur ducimus unde.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Title-->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
+
+    <!--Products-->
+
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg" alt="" />
+          <h4>Sports Watch</h4>
+          <div class="rating">
+            <span>&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x2729;</span>
+          </div>
+          <p>$150.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" alt="" />
+          <h4>Black Sports Shoe</h4>
+          <div class="rating">
+            <span>&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x1F7CA;</span>
+          </div>
+          <p>$100.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" alt="" />
+          <h4>Grey Sports Shoe</h4>
+          <div class="rating">
+            <span>&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x2729;&#x2729;</span>
+          </div>
+          <p>$70.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" alt="" />
+          <h4>Black Sports Joggers</h4>
+          <div class="rating">
+            <span>&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x1F7CA;&#x2729;</span>
+          </div>
+          <p>$90.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and Ios mobile phone</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" />
+            <p>
+              Our Purpose Is To Sustainably Make The Please And Benefits Of
+              Sports Accesible To The Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="">Coupons</a></li>
+              <li><a href="">Blog Post</a></li>
+              <li><a href="">Return Policy</a></li>
+              <li><a href="">Join Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Js for toggle menu-->
+    <script src="script.js"></script>
+  </body>
+</html>
